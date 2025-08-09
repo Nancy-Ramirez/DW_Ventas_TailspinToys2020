@@ -5,7 +5,7 @@ GO
 USE DW_Ventas_TailspinToys2020;
 GO
 
---Dimensión de fechas
+--Dimensiï¿½n de fechas
 CREATE TABLE dim_date (
     date_id INT PRIMARY KEY, -- Formato: YYYYMMDD
     full_date DATE NOT NULL,
@@ -14,10 +14,9 @@ CREATE TABLE dim_date (
     month_name VARCHAR(20) NOT NULL,
     quarter INT NOT NULL,
     year INT NOT NULL,
-    is_weekend BIT NOT NULL
 );
 GO
---Dimensión de productos
+--Dimensiï¿½n de productos
 CREATE TABLE dim_product (
     product_key INT IDENTITY(1,1) PRIMARY KEY,
     product_id INT NOT NULL, -- Business Key
@@ -32,7 +31,7 @@ CREATE TABLE dim_product (
 );
 GO
 
---Dimensión de ubicacion
+--Dimensiï¿½n de ubicacion
 CREATE TABLE dim_state (
     state_key INT IDENTITY(1,1) PRIMARY KEY,
     state_id INT NOT NULL, -- Business Key
@@ -43,7 +42,7 @@ CREATE TABLE dim_state (
 );
 GO
 
---Dimensión de salas de venta
+--Dimensiï¿½n de salas de venta
 CREATE TABLE dim_sales_office (
     sales_office_key INT IDENTITY(1,1) PRIMARY KEY,
     sales_office_id INT NOT NULL, -- Business Key
@@ -72,7 +71,7 @@ CREATE TABLE fact_sales (
     unit_price DECIMAL(10,2) NOT NULL,
     discount_amount DECIMAL(10,2) NOT NULL,
     total_amount DECIMAL(12,2) NOT NULL,
-    -- Llaves foráneas
+    -- Llaves forï¿½neas
     CONSTRAINT FK_fact_sales_dim_date 
         FOREIGN KEY (date_id) REFERENCES dim_date(date_id),
     CONSTRAINT FK_fact_sales_dim_product 
