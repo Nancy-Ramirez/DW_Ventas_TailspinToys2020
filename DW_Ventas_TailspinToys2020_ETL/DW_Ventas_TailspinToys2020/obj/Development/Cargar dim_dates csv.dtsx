@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Cargar dim_dates csv"
   DTS:PackageType="5"
-  DTS:VersionBuild="22"
-  DTS:VersionGUID="{CD40A5D8-AED7-4CCB-B4EF-5D3C76DB33B7}">
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{729D2D27-6DA7-4AF4-8424-9B0C9EF1EB83}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -225,15 +225,15 @@
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="date_id"
-                      externalMetadataColumnId="Package\Cargar CSV a dim_dates\Carga de datos a tabla dim_date.Inputs[Entrada de destino de ADO NET].ExternalColumns[date_id]"
+                      externalMetadataColumnId="Package\Cargar CSV a dim_dates\Carga de datos a tabla dim_date.Inputs[Entrada de destino de ADO NET].ExternalColumns[date_key]"
                       lineageId="Package\Cargar CSV a dim_dates\Leer csv dim_dates.Outputs[Flat File Source Output].Columns[date_id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Cargar CSV a dim_dates\Carga de datos a tabla dim_date.Inputs[Entrada de destino de ADO NET].ExternalColumns[date_id]"
+                      refId="Package\Cargar CSV a dim_dates\Carga de datos a tabla dim_date.Inputs[Entrada de destino de ADO NET].ExternalColumns[date_key]"
                       dataType="i4"
-                      name="date_id" />
+                      name="date_key" />
                     <externalMetadataColumn
                       refId="Package\Cargar CSV a dim_dates\Carga de datos a tabla dim_date.Inputs[Entrada de destino de ADO NET].ExternalColumns[full_date]"
                       dataType="dbTimeStamp"
@@ -600,14 +600,14 @@
         <NodeLayout
           Size="201,42"
           Id="Package\Cargar CSV a dim_dates"
-          TopLeft="837,303" />
+          TopLeft="735,304" />
         <NodeLayout
           Size="169,42"
           Id="Package\Limpiar dim_dates"
-          TopLeft="710.5,185.5" />
+          TopLeft="608.5,186.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="795,227.5">
+          TopLeft="693,228.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
