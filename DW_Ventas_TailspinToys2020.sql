@@ -14,7 +14,6 @@ CREATE TABLE dim_date (
     month_name VARCHAR(20) NOT NULL,
     quarter INT NOT NULL,
     year INT NOT NULL,
-    is_weekend BIT NOT NULL
 );
 GO
 
