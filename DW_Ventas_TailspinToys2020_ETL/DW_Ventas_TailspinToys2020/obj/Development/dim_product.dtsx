@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="23"
-  DTS:VersionGUID="{5B1D3A11-73DC-4224-8F3C-D474D830A174}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{A42A23F7-FBFF-40A5-89D7-97BCA1A6C2B7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -125,60 +125,60 @@
                       cachedLength="50"
                       cachedName="ProductSKU"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_sku]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductSKU]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductSKU]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[ProductID]"
                       cachedDataType="i4"
                       cachedName="ProductID"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_id]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductID]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductID]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[ProductName]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="ProductName"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_name]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductName]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductName]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[ProductCategory]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="ProductCategory"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_category]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductCategory]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductCategory]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[ItemGroup]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="ItemGroup"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[item_group]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ItemGroup]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ItemGroup]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[KitType]"
                       cachedDataType="wstr"
                       cachedLength="3"
                       cachedName="KitType"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[kit_type]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[KitType]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[KitType]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[Channels]"
                       cachedDataType="ui1"
                       cachedName="Channels"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[channels]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Channels]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Channels]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[Demographic]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Demographic"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[demographic]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Demographic]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Demographic]" />
                     <inputColumn
                       refId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].Columns[RetailPrice]"
                       cachedDataType="cy"
                       cachedName="RetailPrice"
                       externalMetadataColumnId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET].ExternalColumns[retail_price]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[RetailPrice]" />
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[RetailPrice]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -260,11 +260,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Llenar dim_product\Origen de ADO NET"
+              refId="Package\Llenar dim_product\Leer tabla Product"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
               description="Consume datos de SQL Server, OLE DB, ODBC u Oracle mediante el correspondiente proveedor de datos de .NET Framework. Se usa una instrucción Transact-SQL para definir el conjunto de resultados. Por ejemplo, se extraen datos de SQL Server con el proveedor de datos de .NET Framework para SQL Server."
-              name="Origen de ADO NET"
+              name="Leer tabla Product"
               usesDispositions="true"
               version="4">
               <properties>
@@ -299,7 +299,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Llenar dim_product\Origen de ADO NET.Connections[IDbConnection]"
+                  refId="Package\Llenar dim_product\Leer tabla Product.Connections[IDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.TailspinToys2020-US]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.TailspinToys2020-US]"
                   description="Administrador de conexiones administrado"
@@ -307,227 +307,227 @@
               </connections>
               <outputs>
                 <output
-                  refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET]"
+                  refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET]"
                   name="Salida de origen de ADO NET">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductID]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductID]"
                       dataType="i4"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductID]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductID]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductID]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductID]"
                       name="ProductID"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductSKU]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductSKU]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductSKU]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductSKU]"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductSKU]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductSKU]"
                       name="ProductSKU"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductName]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductName]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductName]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductName]"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductName]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductName]"
                       name="ProductName"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductCategory]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductCategory]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductCategory]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductCategory]"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ProductCategory]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ProductCategory]"
                       name="ProductCategory"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ItemGroup]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ItemGroup]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ItemGroup]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ItemGroup]"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[ItemGroup]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[ItemGroup]"
                       name="ItemGroup"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[KitType]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[KitType]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[KitType]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[KitType]"
                       length="3"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[KitType]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[KitType]"
                       name="KitType"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Channels]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Channels]"
                       dataType="ui1"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[Channels]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Channels]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[Channels]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Channels]"
                       name="Channels"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Demographic]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Demographic]"
                       dataType="wstr"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[Demographic]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[Demographic]"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Demographic]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Demographic]"
                       name="Demographic"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[RetailPrice]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[RetailPrice]"
                       dataType="cy"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[RetailPrice]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[RetailPrice]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[RetailPrice]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[RetailPrice]"
                       name="RetailPrice"
                       truncationRowDisposition="FailComponent" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Photo]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Photo]"
                       dataType="image"
                       errorOrTruncationOperation="Conversión"
                       errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[Photo]"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].Columns[Photo]"
+                      externalMetadataColumnId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[Photo]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].Columns[Photo]"
                       name="Photo"
                       truncationRowDisposition="FailComponent" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductID]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductID]"
                       dataType="i4"
                       name="ProductID" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductSKU]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductSKU]"
                       dataType="wstr"
                       length="50"
                       name="ProductSKU" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductName]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductName]"
                       dataType="wstr"
                       length="50"
                       name="ProductName" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductCategory]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ProductCategory]"
                       dataType="wstr"
                       length="50"
                       name="ProductCategory" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[ItemGroup]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[ItemGroup]"
                       dataType="wstr"
                       length="50"
                       name="ItemGroup" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[KitType]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[KitType]"
                       dataType="wstr"
                       length="3"
                       name="KitType" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[Channels]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[Channels]"
                       dataType="ui1"
                       name="Channels" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[Demographic]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[Demographic]"
                       dataType="wstr"
                       length="50"
                       name="Demographic" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[RetailPrice]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[RetailPrice]"
                       dataType="cy"
                       name="RetailPrice" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET].ExternalColumns[Photo]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET].ExternalColumns[Photo]"
                       dataType="image"
                       name="Photo" />
                   </externalMetadataColumns>
                 </output>
                 <output
-                  refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET]"
+                  refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET]"
                   isErrorOut="true"
                   name="Salida de error de origen de ADO NET">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductID]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductID]"
                       dataType="i4"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductID]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductID]"
                       name="ProductID" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductSKU]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductSKU]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductSKU]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductSKU]"
                       name="ProductSKU" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductName]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductName]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductName]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductName]"
                       name="ProductName" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductCategory]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductCategory]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ProductCategory]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ProductCategory]"
                       name="ProductCategory" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ItemGroup]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ItemGroup]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ItemGroup]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ItemGroup]"
                       name="ItemGroup" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[KitType]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[KitType]"
                       dataType="wstr"
                       length="3"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[KitType]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[KitType]"
                       name="KitType" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[Channels]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[Channels]"
                       dataType="ui1"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[Channels]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[Channels]"
                       name="Channels" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[Demographic]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[Demographic]"
                       dataType="wstr"
                       length="50"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[Demographic]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[Demographic]"
                       name="Demographic" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[RetailPrice]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[RetailPrice]"
                       dataType="cy"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[RetailPrice]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[RetailPrice]"
                       name="RetailPrice" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[Photo]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[Photo]"
                       dataType="image"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[Photo]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[Photo]"
                       name="Photo" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      refId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
+                      lineageId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de error de origen de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -541,7 +541,7 @@
               refId="Package\Llenar dim_product.Paths[Salida de origen de ADO NET]"
               endId="Package\Llenar dim_product\Escribir en dim_product.Inputs[Entrada de destino de ADO NET]"
               name="Salida de origen de ADO NET"
-              startId="Package\Llenar dim_product\Origen de ADO NET.Outputs[Salida de origen de ADO NET]" />
+              startId="Package\Llenar dim_product\Leer tabla Product.Outputs[Salida de origen de ADO NET]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -572,14 +572,14 @@
         <NodeLayout
           Size="173,42"
           Id="Package\Llenar dim_product"
-          TopLeft="609,243" />
+          TopLeft="883,276" />
         <NodeLayout
           Size="179,42"
           Id="Package\Limpiar dim_product"
-          TopLeft="402,132" />
+          TopLeft="676,165" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="491.5,174">
+          TopLeft="765.5,207">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -620,22 +620,22 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="179,42"
-          Id="Package\Llenar dim_product\Origen de ADO NET"
-          TopLeft="195.5,56.5" />
+          Size="169,42"
+          Id="Package\Llenar dim_product\Leer tabla Product"
+          TopLeft="634.5,141.5" />
         <NodeLayout
           Size="194,42"
           Id="Package\Llenar dim_product\Escribir en dim_product"
-          TopLeft="471,214" />
+          TopLeft="910,299" />
         <EdgeLayout
           Id="Package\Llenar dim_product.Paths[Salida de origen de ADO NET]"
-          TopLeft="285,98.5">
+          TopLeft="719,183.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="283,115.5"
+              EndConnector="288,115.5"
               Start="0,0"
-              End="283,108">
+              End="288,108">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -646,13 +646,13 @@
                     Point2="0,57.75"
                     Point3="4,57.75" />
                   <mssgle:LineSegment
-                    End="279,57.75" />
+                    End="284,57.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="279,57.75"
-                    Point2="283,57.75"
-                    Point3="283,61.75" />
+                    Point1="284,57.75"
+                    Point2="288,57.75"
+                    Point3="288,61.75" />
                   <mssgle:LineSegment
-                    End="283,108" />
+                    End="288,108" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -673,7 +673,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Llenar dim_product\Origen de ADO NET">
+    design-time-name="Package\Llenar dim_product\Leer tabla Product">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

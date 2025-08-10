@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="7"
-  DTS:VersionGUID="{D0E317ED-30AB-437C-84BB-ED54E4E8B32B}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{67B81D7C-4F5C-430B-B968-1722818E5E17}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -71,11 +71,11 @@
           version="1">
           <components>
             <component
-              refId="Package\Llenar dim_state\Destino de ADO NET"
+              refId="Package\Llenar dim_state\Escribir en dim_state"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
               description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-              name="Destino de ADO NET"
+              name="Escribir en dim_state"
               usesDispositions="true"
               version="2">
               <properties>
@@ -106,7 +106,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Llenar dim_state\Destino de ADO NET.Connections[IDbConnection]"
+                  refId="Package\Llenar dim_state\Escribir en dim_state.Connections[IDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.DW_Ventas_TailspinToys2020]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.DW_Ventas_TailspinToys2020]"
                   description="Administrador de conexiones administrado"
@@ -114,73 +114,73 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET]"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[StateID]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].Columns[StateID]"
                       cachedDataType="i4"
                       cachedName="StateID"
-                      externalMetadataColumnId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_id]"
+                      externalMetadataColumnId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_id]"
                       lineageId="Package\Llenar dim_state\Leer tabla state.Outputs[Salida de origen de ADO NET].Columns[StateID]" />
                     <inputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[StateCode]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].Columns[StateCode]"
                       cachedDataType="wstr"
                       cachedLength="2"
                       cachedName="StateCode"
-                      externalMetadataColumnId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_code]"
+                      externalMetadataColumnId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_code]"
                       lineageId="Package\Llenar dim_state\Leer tabla state.Outputs[Salida de origen de ADO NET].Columns[StateCode]" />
                     <inputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[StateName]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].Columns[StateName]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="StateName"
-                      externalMetadataColumnId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_name]"
+                      externalMetadataColumnId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_name]"
                       lineageId="Package\Llenar dim_state\Leer tabla state.Outputs[Salida de origen de ADO NET].Columns[StateName]" />
                     <inputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[TimeZone]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].Columns[TimeZone]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="TimeZone"
-                      externalMetadataColumnId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[time_zone]"
+                      externalMetadataColumnId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[time_zone]"
                       lineageId="Package\Llenar dim_state\Leer tabla state.Outputs[Salida de origen de ADO NET].Columns[TimeZone]" />
                     <inputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[RegionName]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].Columns[RegionName]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="RegionName"
-                      externalMetadataColumnId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[region_name]"
+                      externalMetadataColumnId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[region_name]"
                       lineageId="Package\Llenar dim_state\Leer tabla state.Outputs[Salida de origen de ADO NET].Columns[RegionName]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_key]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_key]"
                       dataType="i4"
                       name="state_key" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_id]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_id]"
                       dataType="i4"
                       name="state_id" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_code]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_code]"
                       dataType="wstr"
                       length="10"
                       name="state_code" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_name]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[state_name]"
                       dataType="wstr"
                       length="100"
                       name="state_name" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[time_zone]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[time_zone]"
                       dataType="wstr"
                       length="50"
                       name="time_zone" />
                     <externalMetadataColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[region_name]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET].ExternalColumns[region_name]"
                       dataType="wstr"
                       length="50"
                       name="region_name" />
@@ -189,22 +189,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Llenar dim_state\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET]"
+                  refId="Package\Llenar dim_state\Escribir en dim_state.Outputs[Salida de error de destino de ADO NET]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Salida de error de destino de ADO NET"
-                  synchronousInputId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]">
+                  synchronousInputId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Llenar dim_state\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      lineageId="Package\Llenar dim_state\Escribir en dim_state.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Llenar dim_state\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      refId="Package\Llenar dim_state\Escribir en dim_state.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Llenar dim_state\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      lineageId="Package\Llenar dim_state\Escribir en dim_state.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -398,7 +398,7 @@ FROM            State AS s LEFT OUTER JOIN
           <paths>
             <path
               refId="Package\Llenar dim_state.Paths[Salida de origen de ADO NET]"
-              endId="Package\Llenar dim_state\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Llenar dim_state\Escribir en dim_state.Inputs[Entrada de destino de ADO NET]"
               name="Salida de origen de ADO NET"
               startId="Package\Llenar dim_state\Leer tabla state.Outputs[Salida de origen de ADO NET]" />
           </paths>
@@ -431,14 +431,14 @@ FROM            State AS s LEFT OUTER JOIN
         <NodeLayout
           Size="160,42"
           Id="Package\Llenar dim_state"
-          TopLeft="453,186" />
+          TopLeft="948,268" />
         <NodeLayout
           Size="176,42"
           Id="Package\Limpiar dim_state"
-          TopLeft="209,117" />
+          TopLeft="704,199" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="297,159">
+          TopLeft="792,241">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -481,37 +481,37 @@ FROM            State AS s LEFT OUTER JOIN
         <NodeLayout
           Size="155,42"
           Id="Package\Llenar dim_state\Leer tabla state"
-          TopLeft="570,186" />
+          TopLeft="723,186" />
         <NodeLayout
-          Size="183,42"
-          Id="Package\Llenar dim_state\Destino de ADO NET"
-          TopLeft="830,274" />
+          Size="182,42"
+          Id="Package\Llenar dim_state\Escribir en dim_state"
+          TopLeft="963,288" />
         <EdgeLayout
           Id="Package\Llenar dim_state.Paths[Salida de origen de ADO NET]"
-          TopLeft="647.5,228">
+          TopLeft="800.5,228">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="274,46"
+              EndConnector="253.5,60"
               Start="0,0"
-              End="274,38.5">
+              End="253.5,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,19" />
+                    End="0,26" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,19"
-                    Point2="0,23"
-                    Point3="4,23" />
+                    Point1="0,26"
+                    Point2="0,30"
+                    Point3="4,30" />
                   <mssgle:LineSegment
-                    End="270,23" />
+                    End="249.5,30" />
                   <mssgle:CubicBezierSegment
-                    Point1="270,23"
-                    Point2="274,23"
-                    Point3="274,27" />
+                    Point1="249.5,30"
+                    Point2="253.5,30"
+                    Point3="253.5,34" />
                   <mssgle:LineSegment
-                    End="274,38.5" />
+                    End="253.5,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -532,7 +532,7 @@ FROM            State AS s LEFT OUTER JOIN
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Llenar dim_state\Destino de ADO NET">
+    design-time-name="Package\Llenar dim_state\Escribir en dim_state">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

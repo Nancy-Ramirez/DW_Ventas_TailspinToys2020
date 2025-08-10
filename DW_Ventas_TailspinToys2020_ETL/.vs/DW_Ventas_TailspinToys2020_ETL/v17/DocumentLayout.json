@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\dim_state.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\dim_state.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\fact_sales.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\fact_sales.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\Orquestador.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\Orquestador.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\dim_product.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\dim_product.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\Cargar dim_dates csv.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
       "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\Cargar dim_dates csv.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\dim_product.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\dim_product.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\dim_state.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{756B3419-F930-B63F-C028-805C3F3C10E2}|DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020.dtproj|solutionrelative:DW_Ventas_TailspinToys2020\\dim_state.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,6 +32,38 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fact_sales.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\fact_sales.dtsx",
+              "RelativeDocumentMoniker": "DW_Ventas_TailspinToys2020\\fact_sales.dtsx",
+              "ToolTip": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\fact_sales.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "DW_Ventas_TailspinToys2020\\fact_sales.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-08-10T06:55:45.212Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orquestador.dtsx [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\Orquestador.dtsx",
+              "RelativeDocumentMoniker": "DW_Ventas_TailspinToys2020\\Orquestador.dtsx",
+              "ToolTip": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\Orquestador.dtsx [Dise\u00F1o]",
+              "RelativeToolTip": "DW_Ventas_TailspinToys2020\\Orquestador.dtsx [Dise\u00F1o]",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFkSURBVDhPjVO/S8NAGH2RtvSPaPeSwUVchS6CexYRJCBYUJC6SEFBBIXiIigKEYRSCC4unQTXDsVipkpbUJHSRTQ2/oimNCTnkOTMXdrqg4Pv\u002B\u002B69ly933wkAoFaqBGPQezdx9/CYO9xZOWU2CPF0aqVKXMcZuY7Kl2R6bomsbZ8sMwYAJvjCKOxtraNW1xTe5N8Gm7sHAIBaXVPC9Vg4KZSaNC7KIs0/jQQW5yUAQPn8gnIwrAM7nYGdzjB5cnIGqwuzDC9AxCDebSPebUdyc8DQWPx1Cx\u002BWQzrG722EtZEOeJgDwOgDukUQSyT5bdagUGrSBU6sW4A7ZNwiHQSHGBa/fANvFuDafZ4eNQgOLSx\u002B/gK06xa6dgpZKY\u002BNswbBlELAz0FRFumXjT7Bq\u002BXFpu31XpRFdJ5M3N73sO9rqMGxehWEI5Ci4puWTqsx\u002BK\u002BNnzAeWSlPxWEDgWGNg//PDLSc8AOMxO8cPcnGpQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-08-10T06:09:17.036Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cargar dim_dates csv.dtsx [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\Cargar dim_dates csv.dtsx",
               "RelativeDocumentMoniker": "DW_Ventas_TailspinToys2020\\Cargar dim_dates csv.dtsx",
@@ -50,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "dim_state.dtsx [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Nancy\\Desktop\\DW_Ventas_TailspinToys2020\\DW_Ventas_TailspinToys2020_ETL\\DW_Ventas_TailspinToys2020\\dim_state.dtsx",
               "RelativeDocumentMoniker": "DW_Ventas_TailspinToys2020\\dim_state.dtsx",

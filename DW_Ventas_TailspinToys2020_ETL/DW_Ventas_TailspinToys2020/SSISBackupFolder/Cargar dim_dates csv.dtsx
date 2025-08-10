@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="8/9/2025 9:16:17 AM"
@@ -12,7 +12,7 @@
   DTS:ObjectName="Cargar dim_dates csv"
   DTS:PackageType="5"
   DTS:VersionBuild="22"
-  DTS:VersionGUID="{CD40A5D8-AED7-4CCB-B4EF-5D3C76DB33B7}">
+  DTS:VersionGUID="{96077687-57D1-4C96-BCD1-EEE3FC09ABBF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

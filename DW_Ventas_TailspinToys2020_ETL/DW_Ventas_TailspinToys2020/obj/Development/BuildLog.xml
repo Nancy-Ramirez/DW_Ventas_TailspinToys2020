@@ -2,23 +2,33 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>DW_Ventas_TailspinToys2020</Name>
-    <LastWriteTime>2025-08-10T03:33:33.1403358Z</LastWriteTime>
+    <LastWriteTime>2025-08-10T08:31:20.6095745Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Cargar dim_dates csv.dtsx</Name>
-      <LastWriteTime>2025-08-10T05:11:51.4891055Z</LastWriteTime>
+      <LastWriteTime>2025-08-10T08:29:24.2526918Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>dim_product.dtsx</Name>
-      <LastWriteTime>2025-08-10T05:05:47.0684845Z</LastWriteTime>
+      <LastWriteTime>2025-08-10T08:29:24.1254021Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>dim_state.dtsx</Name>
-      <LastWriteTime>2025-08-10T05:05:47.1524879Z</LastWriteTime>
+      <LastWriteTime>2025-08-10T08:29:23.9822136Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Orquestador.dtsx</Name>
+      <LastWriteTime>2025-08-10T08:29:23.8539811Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>fact_sales.dtsx</Name>
+      <LastWriteTime>2025-08-10T08:31:20.5805712Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

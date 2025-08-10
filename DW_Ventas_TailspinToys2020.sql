@@ -47,8 +47,8 @@ GO
 -- Tabla de hechos: Ventas
 CREATE TABLE fact_sales (
     sales_key INT IDENTITY(1,1) PRIMARY KEY,
-    order_date_id INT NOT NULL, -- Fecha de pedido
-    ship_date_id INT NOT NULL,  -- Fecha de envío
+    order_date_key INT NOT NULL, -- Fecha de pedido
+    ship_date_key INT NOT NULL,  -- Fecha de envío
     product_key INT NOT NULL,
     state_key INT NOT NULL,
     quantity INT NOT NULL,

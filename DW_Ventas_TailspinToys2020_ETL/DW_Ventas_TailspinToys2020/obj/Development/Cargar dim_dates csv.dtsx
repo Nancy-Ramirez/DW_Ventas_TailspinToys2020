@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Cargar dim_dates csv"
   DTS:PackageType="5"
-  DTS:VersionBuild="19"
-  DTS:VersionGUID="{AAD46235-2C8B-4455-A217-0CEA0197FE46}">
+  DTS:VersionBuild="22"
+  DTS:VersionGUID="{CD40A5D8-AED7-4CCB-B4EF-5D3C76DB33B7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -558,13 +558,13 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Tarea Ejecutar SQL"
+      DTS:refId="Package\Limpiar dim_dates"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarea Ejecutar SQL"
       DTS:DTSID="{20BA7767-0B69-4A2F-9932-D2D1EEEFDF18}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="Tarea Ejecutar SQL"
+      DTS:ObjectName="Limpiar dim_dates"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
       DTS:ThreadHint="0">
       <DTS:Variables />
@@ -580,7 +580,7 @@
       DTS:refId="Package.PrecedenceConstraints[Restricción]"
       DTS:CreationName=""
       DTS:DTSID="{D24AB487-9445-4B93-B735-4F1F7E6216E8}"
-      DTS:From="Package\Tarea Ejecutar SQL"
+      DTS:From="Package\Limpiar dim_dates"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Restricción"
       DTS:To="Package\Cargar CSV a dim_dates" />
@@ -600,20 +600,20 @@
         <NodeLayout
           Size="201,42"
           Id="Package\Cargar CSV a dim_dates"
-          TopLeft="402,260" />
+          TopLeft="837,303" />
         <NodeLayout
-          Size="176,42"
-          Id="Package\Tarea Ejecutar SQL"
-          TopLeft="275.5,142.5" />
+          Size="169,42"
+          Id="Package\Limpiar dim_dates"
+          TopLeft="710.5,185.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
-          TopLeft="363.5,184.5">
+          TopLeft="795,227.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="139,75.5"
+              EndConnector="142.5,75.5"
               Start="0,0"
-              End="139,68">
+              End="142.5,68">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -624,13 +624,13 @@
                     Point2="0,37.75"
                     Point3="4,37.75" />
                   <mssgle:LineSegment
-                    End="135,37.75" />
+                    End="138.5,37.75" />
                   <mssgle:CubicBezierSegment
-                    Point1="135,37.75"
-                    Point2="139,37.75"
-                    Point3="139,41.75" />
+                    Point1="138.5,37.75"
+                    Point2="142.5,37.75"
+                    Point3="142.5,41.75" />
                   <mssgle:LineSegment
-                    End="139,68" />
+                    End="142.5,68" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -650,14 +650,14 @@
         <NodeLayout
           Size="174,42"
           Id="Package\Cargar CSV a dim_dates\Leer csv dim_dates"
-          TopLeft="174,112" />
+          TopLeft="649,151" />
         <NodeLayout
           Size="238,42"
           Id="Package\Cargar CSV a dim_dates\Carga de datos a tabla dim_date"
-          TopLeft="430,247" />
+          TopLeft="905,286" />
         <EdgeLayout
           Id="Package\Cargar CSV a dim_dates.Paths[Flat File Source Output]"
-          TopLeft="261,154">
+          TopLeft="736,193">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
