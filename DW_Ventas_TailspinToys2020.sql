@@ -7,7 +7,7 @@ GO
 
 -- Dimensión de fechas
 CREATE TABLE dim_date (
-    date_id INT PRIMARY KEY, -- Formato: YYYYMMDD
+    date_key INT PRIMARY KEY, -- Formato: YYYYMMDD
     full_date DATE NOT NULL,
     day INT NOT NULL,
     month INT NOT NULL,
@@ -57,9 +57,9 @@ CREATE TABLE fact_sales (
     total_amount DECIMAL(12,2) NOT NULL,
     -- Llaves foráneas
     CONSTRAINT FK_fact_sales_order_date 
-        FOREIGN KEY (order_date_id) REFERENCES dim_date(date_id),
+        FOREIGN KEY (order_date_key) REFERENCES dim_date(date_key),
     CONSTRAINT FK_fact_sales_ship_date 
-        FOREIGN KEY (ship_date_id) REFERENCES dim_date(date_id),
+        FOREIGN KEY (ship_date_key) REFERENCES dim_date(date_key),
     CONSTRAINT FK_fact_sales_dim_product 
         FOREIGN KEY (product_key) REFERENCES dim_product(product_key),
     CONSTRAINT FK_fact_sales_dim_state 
