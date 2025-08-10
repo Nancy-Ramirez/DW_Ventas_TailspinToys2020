@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-L1NSP6A"
   DTS:CreatorName="DESKTOP-L1NSP6A\Nancy"
-  DTS:DTSID="{B4A91C1E-0F8E-4D71-9274-2A5EEDC48585}"
+  DTS:DTSID="{D7580C69-60D7-4B23-8FB8-6CCAC722D30E}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.2"
   DTS:LocaleID="3082"
-  DTS:ObjectName="Orquestador"
+  DTS:ObjectName="orquestador"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{25340B81-DCAE-49C0-9623-A9892F50C73E}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{C950FDF3-1D26-408A-B6BF-178D9F6B2786}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -173,6 +173,14 @@
           Size="127,42"
           Id="Package\dim_state"
           TopLeft="705,200" />
+        <NodeLayout
+          Size="129,42"
+          Id="Package\fact_sales"
+          TopLeft="1067,336" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Limpiar fact_sales"
+          TopLeft="308,80" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
           TopLeft="618,128">
@@ -241,10 +249,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="129,42"
-          Id="Package\fact_sales"
-          TopLeft="1067,336" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 2]"
           TopLeft="976,354.5">
@@ -267,10 +271,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Limpiar fact_sales"
-          TopLeft="308,80" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción 3]"
           TopLeft="476,104">

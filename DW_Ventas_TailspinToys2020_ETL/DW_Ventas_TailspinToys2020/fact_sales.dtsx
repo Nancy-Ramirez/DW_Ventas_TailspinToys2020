@@ -11,8 +11,8 @@
   DTS:LocaleID="3082"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="26"
-  DTS:VersionGUID="{6377120B-4D95-42C8-BA09-D0A614A46E7D}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{C67A553A-691D-40FF-90C3-D9286F2E6588}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -66,11 +66,11 @@
           version="1">
           <components>
             <component
-              refId="Package\Cargar fact_sales\Destino de ADO NET"
+              refId="Package\Cargar fact_sales\Escribir fact_sales"
               componentClassID="Microsoft.ManagedComponentHost"
               contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
               description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-              name="Destino de ADO NET"
+              name="Escribir fact_sales"
               usesDispositions="true"
               version="2">
               <properties>
@@ -101,7 +101,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Cargar fact_sales\Destino de ADO NET.Connections[IDbConnection]"
+                  refId="Package\Cargar fact_sales\Escribir fact_sales.Connections[IDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[localhost.DW_Ventas_TailspinToys2020]"
                   connectionManagerRefId="Package.ConnectionManagers[localhost.DW_Ventas_TailspinToys2020]"
                   description="Administrador de conexiones administrado"
@@ -109,131 +109,131 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+                  refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET]"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="Entrada de destino de ADO NET">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Quantity]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[Quantity]"
                       cachedDataType="i4"
                       cachedName="Quantity"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[quantity]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[quantity]"
                       lineageId="Package\Cargar fact_sales\Leer ventas.Outputs[Salida de origen de ADO NET].Columns[Quantity]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[product_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[product_key]"
                       cachedDataType="i4"
                       cachedName="product_key"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_key]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_key]"
                       lineageId="Package\Cargar fact_sales\Lookup product.Outputs[Lookup Match Output].Columns[product_key]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[order_date_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[order_date_key]"
                       cachedDataType="i4"
                       cachedName="order_date_key"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_date_key]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_date_key]"
                       lineageId="Package\Cargar fact_sales\Lookup order_date.Outputs[Lookup Match Output].Columns[order_date_key]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[ship_date_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[ship_date_key]"
                       cachedDataType="i4"
                       cachedName="ship_date_key"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ship_date_key]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[ship_date_key]"
                       lineageId="Package\Cargar fact_sales\Lookup ship_date.Outputs[Lookup Match Output].Columns[ship_date_key]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[DiscountAmount]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[DiscountAmount]"
                       cachedDataType="numeric"
                       cachedName="DiscountAmount"
                       cachedPrecision="9"
                       cachedScale="2"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[discount_amount]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[discount_amount]"
                       lineageId="Package\Cargar fact_sales\Leer ventas.Outputs[Salida de origen de ADO NET].Columns[DiscountAmount]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[SalesTotal]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[SalesTotal]"
                       cachedDataType="numeric"
                       cachedName="SalesTotal"
                       cachedPrecision="21"
                       cachedScale="2"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[total_amount]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[total_amount]"
                       lineageId="Package\Cargar fact_sales\Leer ventas.Outputs[Salida de origen de ADO NET].Columns[SalesTotal]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[OrderNumber]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[OrderNumber]"
                       cachedDataType="wstr"
                       cachedLength="10"
                       cachedName="OrderNumber"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_number]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_number]"
                       lineageId="Package\Cargar fact_sales\Leer ventas.Outputs[Salida de origen de ADO NET].Columns[OrderNumber]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[PromotionCode]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[PromotionCode]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="PromotionCode"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[promotion_code]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[promotion_code]"
                       lineageId="Package\Cargar fact_sales\Leer ventas.Outputs[Salida de origen de ADO NET].Columns[PromotionCode]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[UnitPrice]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[UnitPrice]"
                       cachedDataType="numeric"
                       cachedName="UnitPrice"
                       cachedPrecision="9"
                       cachedScale="2"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[unit_price]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[unit_price]"
                       lineageId="Package\Cargar fact_sales\Leer ventas.Outputs[Salida de origen de ADO NET].Columns[UnitPrice]" />
                     <inputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[state_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].Columns[state_key]"
                       cachedDataType="i4"
                       cachedName="state_key"
-                      externalMetadataColumnId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[customer_state_key]"
+                      externalMetadataColumnId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[customer_state_key]"
                       lineageId="Package\Cargar fact_sales\Lookup state.Outputs[Lookup Match Output].Columns[state_key]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[sales_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[sales_key]"
                       dataType="i4"
                       name="sales_key" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_date_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_date_key]"
                       dataType="i4"
                       name="order_date_key" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ship_date_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[ship_date_key]"
                       dataType="i4"
                       name="ship_date_key" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[product_key]"
                       dataType="i4"
                       name="product_key" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[customer_state_key]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[customer_state_key]"
                       dataType="i4"
                       name="customer_state_key" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[quantity]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[quantity]"
                       dataType="i4"
                       name="quantity" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[unit_price]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[unit_price]"
                       dataType="numeric"
                       name="unit_price"
                       precision="10"
                       scale="2" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[discount_amount]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[discount_amount]"
                       dataType="numeric"
                       name="discount_amount"
                       precision="10"
                       scale="2" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[total_amount]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[total_amount]"
                       dataType="numeric"
                       name="total_amount"
                       precision="12"
                       scale="2" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_number]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[order_number]"
                       dataType="wstr"
                       length="10"
                       name="order_number" />
                     <externalMetadataColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[promotion_code]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET].ExternalColumns[promotion_code]"
                       dataType="wstr"
                       length="50"
                       name="promotion_code" />
@@ -242,22 +242,22 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Cargar fact_sales\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET]"
+                  refId="Package\Cargar fact_sales\Escribir fact_sales.Outputs[Salida de error de destino de ADO NET]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Salida de error de destino de ADO NET"
-                  synchronousInputId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]">
+                  synchronousInputId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Cargar fact_sales\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
+                      lineageId="Package\Cargar fact_sales\Escribir fact_sales.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Cargar fact_sales\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      refId="Package\Cargar fact_sales\Escribir fact_sales.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Cargar fact_sales\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
+                      lineageId="Package\Cargar fact_sales\Escribir fact_sales.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -615,7 +615,7 @@ where [refTable].[full_date] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Cargar fact_sales\108:invalid};</property>
+                  name="ParameterMap">#{Package\Cargar fact_sales\181:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -773,7 +773,7 @@ where [refTable].[product_id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Cargar fact_sales\23:invalid};</property>
+                  name="ParameterMap">#{Package\Cargar fact_sales\182:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1089,7 +1089,7 @@ where [refTable].[state_id] = ?</property>
                   containsID="true"
                   dataType="System.String"
                   description="Specifies the list of lineage identifiers that map to the parameters that the SQL statement in the SQLCommand property uses. Entries in the list are separated by semicolons."
-                  name="ParameterMap">#{Package\Cargar fact_sales\105:invalid};</property>
+                  name="ParameterMap">#{Package\Cargar fact_sales\183:invalid};</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies the column code page to use when code page information is unavailable from the data source."
@@ -1209,7 +1209,7 @@ where [refTable].[state_id] = ?</property>
               startId="Package\Cargar fact_sales\Lookup order_date.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Cargar fact_sales.Paths[Lookup Match Output3]"
-              endId="Package\Cargar fact_sales\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
+              endId="Package\Cargar fact_sales\Escribir fact_sales.Inputs[Entrada de destino de ADO NET]"
               name="Lookup Match Output"
               startId="Package\Cargar fact_sales\Lookup ship_date.Outputs[Lookup Match Output]" />
             <path
@@ -1313,17 +1313,29 @@ where [refTable].[state_id] = ?</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="136,42"
-          Id="Package\Cargar fact_sales\Leer ventas"
-          TopLeft="128.5,68.5" />
-        <NodeLayout
           Size="155,42"
           Id="Package\Cargar fact_sales\Lookup product"
           TopLeft="119,224" />
         <NodeLayout
-          Size="183,42"
-          Id="Package\Cargar fact_sales\Destino de ADO NET"
+          Size="142,42"
+          Id="Package\Cargar fact_sales\Lookup state"
+          TopLeft="233,355" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Cargar fact_sales\Lookup order_date"
+          TopLeft="365,223" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\Cargar fact_sales\Lookup ship_date"
+          TopLeft="359,68" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Cargar fact_sales\Escribir fact_sales"
           TopLeft="667,147" />
+        <NodeLayout
+          Size="136,42"
+          Id="Package\Cargar fact_sales\Leer ventas"
+          TopLeft="128.5,68.5" />
         <EdgeLayout
           Id="Package\Cargar fact_sales.Paths[Salida de origen de ADO NET]"
           TopLeft="196.5,110.5">
@@ -1346,50 +1358,66 @@ where [refTable].[state_id] = ?</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="142,42"
-          Id="Package\Cargar fact_sales\Lookup state"
-          TopLeft="233,355" />
         <EdgeLayout
-          Id="Package\Cargar fact_sales.Paths[Lookup Match Output]"
-          TopLeft="196.5,266">
+          Id="Package\Cargar fact_sales.Paths[Lookup Match Output3]"
+          TopLeft="468.333333333333,110">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="107.5,89"
+              EndConnector="282.666666666667,37"
               Start="0,0"
-              End="107.5,81.5">
+              End="282.666666666667,29.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,40.5" />
+                    End="0,11.0119331742243" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,40.5"
-                    Point2="0,44.5"
-                    Point3="4,44.5" />
+                    Point1="0,11.0119331742243"
+                    Point2="0,15.0119331742243"
+                    Point3="4,15.0119331742243" />
                   <mssgle:LineSegment
-                    End="103.5,44.5" />
+                    End="278.666666666667,15.0119331742243" />
                   <mssgle:CubicBezierSegment
-                    Point1="103.5,44.5"
-                    Point2="107.5,44.5"
-                    Point3="107.5,48.5" />
+                    Point1="278.666666666667,15.0119331742243"
+                    Point2="282.666666666667,15.0119331742243"
+                    Point3="282.666666666667,19.0119331742243" />
                   <mssgle:LineSegment
-                    End="107.5,81.5" />
+                    End="282.666666666667,29.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="5.55861328125,49.5,96.3827734375,11.609375"
+              BoundingBox="93.1419466145833,20.0119331742243,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Cargar fact_sales\Lookup order_date"
-          TopLeft="365,223" />
+        <EdgeLayout
+          Id="Package\Cargar fact_sales.Paths[Lookup Match Output2]"
+          TopLeft="448.083333333333,223">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-113"
+              Start="0,0"
+              End="0,-105.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,-105.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,-58.5546875,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Cargar fact_sales.Paths[Lookup Match Output1]"
           TopLeft="326.333333333333,355">
@@ -1426,67 +1454,39 @@ where [refTable].[state_id] = ?</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="166,42"
-          Id="Package\Cargar fact_sales\Lookup ship_date"
-          TopLeft="359,68" />
         <EdgeLayout
-          Id="Package\Cargar fact_sales.Paths[Lookup Match Output2]"
-          TopLeft="448.083333333333,223">
+          Id="Package\Cargar fact_sales.Paths[Lookup Match Output]"
+          TopLeft="196.5,266">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,-113"
+              EndConnector="107.5,89"
               Start="0,0"
-              End="0,-105.5">
+              End="107.5,81.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-105.5" />
+                    End="0,40.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,40.5"
+                    Point2="0,44.5"
+                    Point3="4,44.5" />
+                  <mssgle:LineSegment
+                    End="103.5,44.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="103.5,44.5"
+                    Point2="107.5,44.5"
+                    Point3="107.5,48.5" />
+                  <mssgle:LineSegment
+                    End="107.5,81.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,-58.5546875,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Cargar fact_sales.Paths[Lookup Match Output3]"
-          TopLeft="468.333333333333,110">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="290.166666666667,37"
-              Start="0,0"
-              End="290.166666666667,29.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,11.0119331742243" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,11.0119331742243"
-                    Point2="0,15.0119331742243"
-                    Point3="4,15.0119331742243" />
-                  <mssgle:LineSegment
-                    End="286.166666666667,15.0119331742243" />
-                  <mssgle:CubicBezierSegment
-                    Point1="286.166666666667,15.0119331742243"
-                    Point2="290.166666666667,15.0119331742243"
-                    Point3="290.166666666667,19.0119331742243" />
-                  <mssgle:LineSegment
-                    End="290.166666666667,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="96.8919466145833,20.0119331742243,96.3827734375,11.609375"
+              BoundingBox="5.55861328125,49.5,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -1494,20 +1494,12 @@ where [refTable].[state_id] = ?</property>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Cargar fact_sales\Leer ventas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Cargar fact_sales\Lookup product">
     <Properties>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1517,16 +1509,8 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Cargar fact_sales\Destino de ADO NET">
-    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
@@ -1538,7 +1522,7 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1548,7 +1532,7 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1561,7 +1545,7 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1571,7 +1555,7 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1584,7 +1568,7 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>OverwriteParamsSQLProp</Name>
         <Value
-          type="q2:boolean">false</Value>
+          type="q2:string">false</Value>
       </Property>
       <Property>
         <Name>UsedTableName</Name>
@@ -1594,8 +1578,24 @@ where [refTable].[state_id] = ?</property>
       <Property>
         <Name>TableInfoObjectType</Name>
         <Value
-          type="q4:int">0</Value>
+          type="q4:string">0</Value>
       </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar fact_sales\Escribir fact_sales">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Cargar fact_sales\Leer ventas">
+    <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>

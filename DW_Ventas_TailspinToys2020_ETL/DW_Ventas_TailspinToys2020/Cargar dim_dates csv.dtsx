@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-L1NSP6A"
   DTS:CreatorName="DESKTOP-L1NSP6A\Nancy"
-  DTS:DTSID="{32CFD015-6674-46F1-AC7F-15136857209D}"
+  DTS:DTSID="{26C2C2C7-7C54-42DA-A26F-7538D2BA0C9B}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5685.2"
   DTS:LocaleID="3082"
-  DTS:ObjectName="Cargar dim_dates csv"
+  DTS:ObjectName="cargar dim_dates csv"
   DTS:PackageType="5"
-  DTS:VersionBuild="25"
-  DTS:VersionGUID="{729D2D27-6DA7-4AF4-8424-9B0C9EF1EB83}">
+  DTS:VersionBuild="26"
+  DTS:VersionGUID="{E497F5BB-D687-4FE7-BC47-37E02257D0EF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
