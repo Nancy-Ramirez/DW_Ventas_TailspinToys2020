@@ -1,67 +1,78 @@
--- Crear base de datos
+-- 1. Crear base de datos
 CREATE DATABASE DW_Ventas_TailspinToys2020;
 GO
 
 USE DW_Ventas_TailspinToys2020;
 GO
 
--- Dimensión de fechas
-CREATE TABLE dim_date (
-    date_key INT PRIMARY KEY, -- Formato: YYYYMMDD
+-- 2. Dimensión: Fecha
+CREATE TABLE dbo.dim_date (
+    date_key INT NOT NULL PRIMARY KEY,  -- Formato: YYYYMMDD
     full_date DATE NOT NULL,
-    day INT NOT NULL,
-    month INT NOT NULL,
-    month_name VARCHAR(20) NOT NULL,
-    quarter INT NOT NULL,
-    year INT NOT NULL,
+    day VARCHAR(10) NOT NULL,
+    month VARCHAR(10) NOT NULL,
+    month_name VARCHAR(10) NOT NULL,
+    quarter VARCHAR(3) NOT NULL,
+    year VARCHAR(50) NOT NULL
 );
 GO
 
--- Dimensión de productos
-CREATE TABLE dim_product (
-    product_key INT IDENTITY(1,1) PRIMARY KEY,
-    product_id INT NOT NULL, -- Business Key
+-- 3. Dimensión: Producto
+CREATE TABLE dbo.dim_product (
+    product_key INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    product_id INT NOT NULL,
     product_sku VARCHAR(50) NOT NULL,
     product_name VARCHAR(200) NOT NULL,
-    product_category VARCHAR(100),
-    item_group VARCHAR(100),
-    kit_type VARCHAR(50),
-    channels VARCHAR(50),
-    demographic VARCHAR(50),
-    retail_price DECIMAL(10,2) NOT NULL
+    product_category VARCHAR(100) NULL,
+    item_group VARCHAR(100) NULL,
+    kit_type VARCHAR(50) NULL,
+    channels VARCHAR(50) NULL,
+    demographic VARCHAR(50) NULL,
+    retail_price DECIMAL(10, 2) NOT NULL
 );
 GO
 
--- Dimensión de ubicación (estado)
-CREATE TABLE dim_state (
-    state_key INT IDENTITY(1,1) PRIMARY KEY,
-    state_id INT NOT NULL, -- Business Key
+-- 4. Dimensión: Estado
+CREATE TABLE dbo.dim_state (
+    state_key INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    state_id INT NOT NULL,
     state_code VARCHAR(10) NOT NULL,
     state_name VARCHAR(100) NOT NULL,
-    time_zone VARCHAR(50),
-    region_name VARCHAR(50)
+    time_zone VARCHAR(50) NULL,
+    region_name VARCHAR(50) NULL
 );
 GO
 
--- Tabla de hechos: Ventas
-CREATE TABLE fact_sales (
-    sales_key INT IDENTITY(1,1) PRIMARY KEY,
-    order_date_key INT NOT NULL, -- Fecha de pedido
-    ship_date_key INT NOT NULL,  -- Fecha de envío
+-- 5. Tabla de hechos: Ventas
+CREATE TABLE dbo.fact_sales (
+    sales_key INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+    order_date_key INT NOT NULL,
+    ship_date_key INT NOT NULL,
     product_key INT NOT NULL,
-    state_key INT NOT NULL,
+    customer_state_key INT NOT NULL,
     quantity INT NOT NULL,
-    unit_price DECIMAL(10,2) NOT NULL,
-    discount_amount DECIMAL(10,2) NOT NULL,
-    total_amount DECIMAL(12,2) NOT NULL,
-    -- Llaves foráneas
-    CONSTRAINT FK_fact_sales_order_date 
-        FOREIGN KEY (order_date_key) REFERENCES dim_date(date_key),
-    CONSTRAINT FK_fact_sales_ship_date 
-        FOREIGN KEY (ship_date_key) REFERENCES dim_date(date_key),
-    CONSTRAINT FK_fact_sales_dim_product 
-        FOREIGN KEY (product_key) REFERENCES dim_product(product_key),
-    CONSTRAINT FK_fact_sales_dim_state 
-        FOREIGN KEY (state_key) REFERENCES dim_state(state_key)
+    unit_price DECIMAL(10, 2) NOT NULL,
+    discount_amount DECIMAL(10, 2) NOT NULL,
+    total_amount DECIMAL(12, 2) NOT NULL,
+    order_number VARCHAR(10) NULL,
+    promotion_code VARCHAR(50) NULL
 );
+GO
+
+-- 6. Llaves foráneas
+ALTER TABLE dbo.fact_sales
+    ADD CONSTRAINT FK_fact_sales_dim_product
+    FOREIGN KEY (product_key) REFERENCES dbo.dim_product(product_key);
+
+ALTER TABLE dbo.fact_sales
+    ADD CONSTRAINT FK_fact_sales_dim_state
+    FOREIGN KEY (customer_state_key) REFERENCES dbo.dim_state(state_key);
+
+ALTER TABLE dbo.fact_sales
+    ADD CONSTRAINT FK_fact_sales_order_date
+    FOREIGN KEY (order_date_key) REFERENCES dbo.dim_date(date_key);
+
+ALTER TABLE dbo.fact_sales
+    ADD CONSTRAINT FK_fact_sales_ship_date
+    FOREIGN KEY (ship_date_key) REFERENCES dbo.dim_date(date_key);
 GO
